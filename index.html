@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+    }
+    #message {
+      color: teal;
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JavaScript and DOM Manipulation</h1>
+  </header>
+
+  <main>
+    <p id="message">Welcome! You can change the text if you want.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+    <button onclick="toggleParagraph()">Add/Remove Paragraph</button>
+
+    <section id="dynamic-section"></section>
+  </main>
+
+  <footer>
+    <p>Created as part of a Web Technologies.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
